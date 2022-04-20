@@ -1,0 +1,179 @@
+header {
+	background-color: coral;
+	position: relative;
+}
+
+nav#navigation ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	display: inline-block
+}
+
+nav#navigation ul li {
+	float: left;
+}
+
+nav#navigation ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav#navigation ul li a:hover {
+	background-color: lightsalmon;
+	text-decoration: underline;
+}
+
+div#container {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+h2,
+h3 {
+	font-size: 1.2500em;
+	line-height: 2em;
+	font-family: Impact, fantasy;
+	text-align: center;
+}
+
+div#info,
+div#school,
+div#paws,
+div#skills,
+div#work,
+p,
+div#bullets {
+	text-align: center;
+	list-style-position: inside;
+	font-size: 1.2500em;
+	line-height: 1.875em;
+	font-family: 'Smooch Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Fleur De Leah', cursive;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+body {
+	background-image: linear-gradient(to left, pink, orange);
+}
+
+#rollers {
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+#dog {
+	width: 300px;
+	height: 200px;
+	text-align: center;
+}
+
+#small {
+	width: 300px;
+	height: 200px;
+	text-align: center;
+}
+
+#puppy {
+	width: 300px;
+	height: 200px;
+	text-align: center;
+}
+
+#cat {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+#video {
+	width:560px;
+	height:315px;
+	display: block;
+	margin: 0 auto;
+}
+
+#spotify {
+	display: block;
+	margin: 0 auto;
+}
+
+.card {
+	position: absolute;
+	top: 210%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 400px;
+	background: #262626;
+	overflow: hidden;
+}
+
+.card .imgBx,
+.card .details {
+	width: 100%;
+	height: 300%;
+	position: fixed;
+	box-sizing: border-box;
+	transition: .5s;
+}
+
+.card .imgBx img {
+	width: 100%;
+	height: 30%;
+}
+
+.card .details {
+	background: #262626;
+	top: 0;
+	left: 200%;
+	padding: 20px 30px;
+}
+
+.card:hover .details {
+	top: 0;
+	left: 0%;
+}
+
+.card .details h3 {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.card .details p {
+	margin: 20px 0 0;
+	color: #fff;
+}
+
+#map {
+  height: 100%;
+}
+
+#wrapper {
+	width:850px;
+	height:600px;
+	background-color: #808080
+	margin:0 auto;
+	overflow; hidden;
+}
+#canvas {
+	width:700px;
+	height:500px;
+	background-color:#ccc;
+	margin:30px auto;
+}
