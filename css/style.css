@@ -160,7 +160,6 @@ body {
 	color: #fff;
 }
 
-
 #wrapper {
 	width:850px;
 	height:600px;
@@ -173,7 +172,15 @@ body {
 	height:500px;
 	background-color:#ccc;
 	margin:30px auto;
+
 }
 #map {
   height: 100%;
+}
+#C10 {
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
