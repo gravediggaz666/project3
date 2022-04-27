@@ -163,9 +163,8 @@ body {
 #wrapper {
 	width:850px;
 	height:600px;
-	background-color: #808080
-	margin:0 auto;
-	overflow; hidden;
+	background-color: #808080;
+	
 }
 #canvas {
 	width:700px;
